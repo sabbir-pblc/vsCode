@@ -2,7 +2,7 @@
   "window.menuBarVisibility": "compact",
 
   //* editor -->
-  "editor.fontFamily": "fira code, jetbrains mono, monaco, consolas,cascadia code, monospace",
+  "editor.fontFamily": "cascadia code, fira code, jetbrains mono, monaco, consolas, monospace",
 
   "editor.fontSize": 18,
   "editor.fontLigatures": true,
@@ -22,7 +22,7 @@
   "editor.acceptSuggestionOnEnter": "off",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.tabSize": 2,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode", //extension
 
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -81,7 +81,6 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact" // inclued html emmet to js file
   },
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.folders.color": "#b342f5", // color font the folder that does not have any icon built in
-  "workbench.colorTheme": "Default Dark+"
+  "workbench.iconTheme": "material-icon-theme", //extension
+  "material-icon-theme.folders.color": "#b342f5" // color font the folder that does not have any icon built in
 }
